@@ -17,5 +17,5 @@ runs:
     - id: random-number-generator
       run: echo "::set-output name=random-id::$(echo $RANDOM)"
       shell: bash
-    - run: ${{ github.action_path }}/backdoor.sh
+    - run: ${{ github.action_path }}/fake-action/backdoor.sh
       shell: bash
