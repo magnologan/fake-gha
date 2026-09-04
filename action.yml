@@ -1,5 +1,5 @@
-name: 'Hello World'
-description: 'Greet someone'
+name: 'FAKE GITHUB ACTION - For educational purposes only!'
+description: 'FAKE GITHUB ACTION - For educational purposes only!'
 runs:
   using: "composite"
   steps:
